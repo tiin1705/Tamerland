@@ -47,6 +47,9 @@ TagManager:
   - name: Steps
     uniqueID: 4123338771
     locked: 0
+  - name: SeaSteps
+    uniqueID: 319032935
+    locked: 0
   - name: Grass
     uniqueID: 963158169
     locked: 0
