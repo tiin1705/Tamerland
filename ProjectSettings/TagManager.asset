@@ -11,13 +11,13 @@ TagManager:
   - 
   - Water
   - UI
-  - Background
-  - Background2
-  - House
-  - 
-  - 
-  - 
-  - 
+  - Foreground
+  - Building
+  - Walkable Ground
+  - Grass
+  - Steps
+  - HouseYard
+  - Signage
   - 
   - 
   - 
@@ -41,9 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
+  - name: Walkable Ground
+    uniqueID: 3781167697
+    locked: 0
+  - name: Steps
+    uniqueID: 4123338771
+    locked: 0
+  - name: Grass
+    uniqueID: 963158169
+    locked: 0
+  - name: HourseYard
+    uniqueID: 2888385441
+    locked: 0
+  - name: Signage
+    uniqueID: 2661356773
+    locked: 0
+  - name: Foreground
     uniqueID: 3248166519
     locked: 0
-  - name: House
+  - name: Buiding
     uniqueID: 2596888461
     locked: 0
