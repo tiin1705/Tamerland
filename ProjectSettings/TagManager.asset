@@ -18,7 +18,7 @@ TagManager:
   - Steps
   - HouseYard
   - Signage
-  - 
+  - Sea
   - 
   - 
   - 
@@ -59,11 +59,11 @@ TagManager:
   - name: Signage
     uniqueID: 2661356773
     locked: 0
-  - name: Player
-    uniqueID: 3795159291
-    locked: 0
   - name: Foreground
     uniqueID: 3248166519
+    locked: 0
+  - name: Player
+    uniqueID: 3795159291
     locked: 0
   - name: Buiding
     uniqueID: 2596888461

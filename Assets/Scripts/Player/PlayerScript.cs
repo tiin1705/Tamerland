@@ -11,6 +11,8 @@ public class PlayerScript : MonoBehaviour
     private Animator animator;
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
+    public LayerMask houseyardLayer;
+    public LayerMask seaLayer;
 
 
 
@@ -59,7 +61,7 @@ public class PlayerScript : MonoBehaviour
         transform.position = playerPos;
         isMoving = false;
     }
-    private bool isWalkable(Vector3 playerPos)
+    private bool buidingCheck(Vector3 playerPos)
     {
         //building layer check
         if(Physics2D.OverlapCircle(playerPos, 0.05f, buildingLayer) != null)
@@ -67,12 +69,45 @@ public class PlayerScript : MonoBehaviour
             return false;
         }
         return true;
+      
+    }
+
+    private bool foregroundCheck(Vector3 playerPos)
+    {
         //foreground layer check
         if (Physics2D.OverlapCircle(playerPos, 0.05f, foregroundLayer) != null)
         {
             return false;
         }
         return true;
+    }
+   
+    private bool houseyardCheck(Vector3 playerPos)
+    {
+        if (Physics2D.OverlapCircle(playerPos, 0.05f, houseyardLayer) != null)
+        {
+            return false;
+        }
+        return true;
+    }
+
+    private bool seaCheck(Vector3 playerPos)
+    {
+        if (Physics2D.OverlapCircle(playerPos, 0.05f, seaLayer) != null)
+        {
+            return false;
+        }
+        return true;
+    }
+
+
+    private bool isWalkable(Vector3 playerPos)
+    {
+        if (buidingCheck(playerPos) & foregroundCheck(playerPos) & houseyardCheck(playerPos) & seaCheck(playerPos))
+        {
+            return true;
+        }
+        return false ;
     }
 
 }
