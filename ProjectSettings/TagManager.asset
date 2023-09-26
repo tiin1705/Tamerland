@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Main Player
   layers:
   - Default
   - TransparentFX
@@ -62,9 +63,12 @@ TagManager:
   - name: Foreground
     uniqueID: 3248166519
     locked: 0
+  - name: Buiding
+    uniqueID: 2596888461
+    locked: 0
   - name: Player
     uniqueID: 3795159291
     locked: 0
-  - name: Buiding
-    uniqueID: 2596888461
+  - name: Top of Building
+    uniqueID: 402960817
     locked: 0

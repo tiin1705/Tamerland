@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.WSA;
@@ -11,9 +11,10 @@ public class PlayerScript : MonoBehaviour
     private Animator animator;
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
-    public LayerMask houseyardLayer;
+  
     public LayerMask seaLayer;
 
+    
 
 
     // Start is called before the first frame update
@@ -64,7 +65,7 @@ public class PlayerScript : MonoBehaviour
     private bool buidingCheck(Vector3 playerPos)
     {
         //building layer check
-        if(Physics2D.OverlapCircle(playerPos, 0.05f, buildingLayer) != null)
+        if(Physics2D.OverlapCircle(playerPos,0f,buildingLayer) != null)
         {
             return false;
         }
@@ -75,25 +76,18 @@ public class PlayerScript : MonoBehaviour
     private bool foregroundCheck(Vector3 playerPos)
     {
         //foreground layer check
-        if (Physics2D.OverlapCircle(playerPos, 0.05f, foregroundLayer) != null)
+        if (Physics2D.OverlapCircle(playerPos, 0f, foregroundLayer) != null)
         {
             return false;
         }
         return true;
     }
    
-    private bool houseyardCheck(Vector3 playerPos)
-    {
-        if (Physics2D.OverlapCircle(playerPos, 0.05f, houseyardLayer) != null)
-        {
-            return false;
-        }
-        return true;
-    }
+   
 
     private bool seaCheck(Vector3 playerPos)
     {
-        if (Physics2D.OverlapCircle(playerPos, 0.05f, seaLayer) != null)
+        if (Physics2D.OverlapCircle(playerPos, 0f, seaLayer) != null)
         {
             return false;
         }
@@ -103,11 +97,12 @@ public class PlayerScript : MonoBehaviour
 
     private bool isWalkable(Vector3 playerPos)
     {
-        if (buidingCheck(playerPos) & foregroundCheck(playerPos) & houseyardCheck(playerPos) & seaCheck(playerPos))
+        if (buidingCheck(playerPos) & foregroundCheck(playerPos)  & seaCheck(playerPos))
         {
             return true;
         }
         return false ;
     }
+   
 
 }
