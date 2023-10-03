@@ -5,16 +5,24 @@ using UnityEngine.WSA;
 
 public class PlayerScript : MonoBehaviour
 {
+    private Vector3 CurrentPos; //biến lưu vị trí hiện tại của nhân vật
     public float moveSpeed = 0f;
     private bool isMoving;
     private Vector2 input;
     private Animator animator;
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
-  
     public LayerMask seaLayer;
+    private static PlayerScript instance;
 
-    
+    // Tạo một getter để lấy phiên bản duy nhất của PlayerScript.
+
+    public static PlayerScript Instance
+    {
+        get { return instance; }
+    }
+
+
 
 
     // Start is called before the first frame update
@@ -23,7 +31,17 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     private void Awake()
     {
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            // Nếu đã tồn tại một phiên bản khác, hủy bỏ phiên bản hiện tại.
+            Destroy(gameObject);
+        }
     }
     void Update()
     {
@@ -62,6 +80,24 @@ public class PlayerScript : MonoBehaviour
         transform.position = playerPos;
         isMoving = false;
     }
+
+    private void Start()
+    {
+        // Lưu vị trí hiện tại của nhân vật khi bắt đầu scene.
+        CurrentPos= transform.position;
+    }
+    public void SavePlayerPosition()
+    {
+        //Lưu vị trí hiện tại của nhân vật vào biến
+        CurrentPos = transform.position;
+    }
+    public void RestorePlayerPosition()
+    {
+        // Đặt lại vị trí của nhân vật tại vị trí đã lưu trước đó.
+        transform.position = CurrentPos;
+    }
+
+
     private bool buidingCheck(Vector3 playerPos)
     {
         //building layer check
