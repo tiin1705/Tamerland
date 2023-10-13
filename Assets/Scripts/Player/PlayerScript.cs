@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.WSA;
 
 public class PlayerScript : MonoBehaviour
 {
-    private Vector3 CurrentPos; //biến lưu vị trí hiện tại của nhân vật
     public float moveSpeed = 0f;
     private bool isMoving;
     private Vector2 input;
@@ -13,35 +13,17 @@ public class PlayerScript : MonoBehaviour
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
     public LayerMask seaLayer;
+
+    private Vector3 newPosition; // Biến để lưu trữ vị trí mới của nhân vật.
+    private Vector3 currentPos;
+
+
     private static PlayerScript instance;
-
-    // Tạo một getter để lấy phiên bản duy nhất của PlayerScript.
-
     public static PlayerScript Instance
     {
+        // Tạo một getter để lấy phiên bản duy nhất của PlayerController.
+
         get { return instance; }
-    }
-
-
-
-
-    // Start is called before the first frame update
-
-
-    // Update is called once per frame
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            // Nếu đã tồn tại một phiên bản khác, hủy bỏ phiên bản hiện tại.
-            Destroy(gameObject);
-        }
     }
     void Update()
     {
@@ -83,18 +65,45 @@ public class PlayerScript : MonoBehaviour
 
     private void Start()
     {
-        // Lưu vị trí hiện tại của nhân vật khi bắt đầu scene.
-        CurrentPos= transform.position;
+        transform.position = currentPos;
     }
-    public void SavePlayerPosition()
+    private void Awake()
     {
-        //Lưu vị trí hiện tại của nhân vật vào biến
-        CurrentPos = transform.position;
+
+       
+
+
+        animator = GetComponent<Animator>();
+        // Đảm bảo rằng chỉ có một phiên bản duy nhất của PlayerController.
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            // Nếu đã tồn tại một phiên bản khác, hủy bỏ phiên bản hiện tại.
+            Destroy(gameObject);
+        }
+    
+
+
     }
-    public void RestorePlayerPosition()
+  
+    
+
+    public Vector3 GetNewPosition()
+    // Hàm để lấy vị trí mới của nhân vật.
+
     {
-        // Đặt lại vị trí của nhân vật tại vị trí đã lưu trước đó.
-        transform.position = CurrentPos;
+        return newPosition;
+    }
+
+    public void SetNewPosition(Vector3 position)
+    {
+        // Hàm để đặt vị trí mới của nhân vật.
+
+        newPosition = position;
     }
 
 
