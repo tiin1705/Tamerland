@@ -22,7 +22,7 @@ TagManager:
   - Sea
   - Portal
   - Fench
-  - 
+  - Bridge
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
     locked: 0
   - name: Walkable Ground
     uniqueID: 3781167697
+    locked: 0
+  - name: Bridge
+    uniqueID: 3310916579
     locked: 0
   - name: Steps
     uniqueID: 4123338771
