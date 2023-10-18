@@ -6,7 +6,7 @@ public class Response
     [SerializeField] private string responseText;
     [SerializeField] private DialogueObject dialogueObject;
 
-    public string RresponseText => responseText;
+    public string ResponseText => responseText;
 
     public  DialogueObject DialogueObject => dialogueObject;
 }

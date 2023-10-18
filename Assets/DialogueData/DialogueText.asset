@@ -17,3 +17,10 @@ MonoBehaviour:
   - aasdasfvsxvwefsdvwr
   - sssssssssssss
   - asdasfavsvsdv
+  - "may la nam hay nu \n"
+  - sdasdasd
+  responses:
+  - responseText: Boy
+    dialogueObject: {fileID: 11400000, guid: a90bb9a17897b0f4380dccd06812dddb, type: 2}
+  - responseText: Girl
+    dialogueObject: {fileID: 11400000, guid: c7522f8ac4c9fcf41a542e4d31c9c043, type: 2}

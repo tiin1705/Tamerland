@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f7a6aadd33b1ec4bb5bec95f6258eee, type: 3}
   m_Name: Boy
   m_EditorClassIdentifier: 
-  dialogue: []
+  dialogue:
+  - ssssss
   responses: []
