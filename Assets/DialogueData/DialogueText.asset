@@ -15,10 +15,6 @@ MonoBehaviour:
   dialogue:
   - Wellome To POKEMON FIRE RED.
   - aasdasfvsxvwefsdvwr
-  - sssssssssssss
-  - asdasfavsvsdv
-  - "may la nam hay nu \n"
-  - sdasdasd
   responses:
   - responseText: Boy
     dialogueObject: {fileID: 11400000, guid: a90bb9a17897b0f4380dccd06812dddb, type: 2}
