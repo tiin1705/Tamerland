@@ -1,3 +1,4 @@
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,16 @@ public class ResponseHandler : MonoBehaviour
    [SerializeField] private RectTransform responseButtonTemplate;
    [SerializeField] private RectTransform responseContainer;
 
-    public void ShowReponses(Response[] responses)
+    private DialogueUI dialogueUI;
+
+   private List<GameObject> tempResponsesButtons = new List<GameObject>();
+
+    private void Start()
+    {
+        dialogueUI = GetComponent<DialogueUI>(); 
+    }
+
+    public void ShowResponses(Response[] responses)
     {
         float responseBoxHeight = 0;
 
@@ -20,6 +30,8 @@ public class ResponseHandler : MonoBehaviour
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
             responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
 
+            tempResponsesButtons.Add(responseButton);
+
             responseBoxHeight += responseButtonTemplate.sizeDelta.y;
         }
 
@@ -29,6 +41,13 @@ public class ResponseHandler : MonoBehaviour
 
     private void  OnPickedResponse(Response response)
     {
+        responseBox.gameObject.SetActive(false);
 
+        foreach(GameObject button in tempResponsesButtons)
+        {
+            Destroy(button);
+        }
+        tempResponsesButtons.Clear();
+        dialogueUI.ShowDialogue(response.DialogueObject);
     }
 }
