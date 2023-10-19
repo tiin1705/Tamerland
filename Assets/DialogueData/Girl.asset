@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Girl
   m_EditorClassIdentifier: 
   dialogue:
-  - 111
+  - 'You are Girl '
   responses: []

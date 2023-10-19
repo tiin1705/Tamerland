@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Boy
   m_EditorClassIdentifier: 
   dialogue:
-  - ssssss
+  - 'You are Boy '
   responses: []

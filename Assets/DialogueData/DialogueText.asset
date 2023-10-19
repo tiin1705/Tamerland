@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: DialogueText
   m_EditorClassIdentifier: 
   dialogue:
-  - Wellome To POKEMON FIRE RED.
-  - aasdasfvsxvwefsdvwr
+  - "Hello, there!\n Glad to meet you "
+  - "Wellcome to the world of POK\xE9MON!"
+  - My name is OAK.
+  - "People  affectionately refer to me as the POK\xE9MON PROFESSOR "
+  - 'This is world '
+  - "..is inhabited  far and wide by \r\ncreatures called POK\xE9MON"
+  - "For some people, Pokemon are pet \r\nother use them for battling "
+  - As for myself...
+  - "I study POK\xE9MON as a profession."
+  - "Now tell me. Are you a boy \nOr are you a girl ?"
+  - "But first, tell me a little about \nyourself."
   responses:
   - responseText: Boy
     dialogueObject: {fileID: 11400000, guid: a90bb9a17897b0f4380dccd06812dddb, type: 2}
