@@ -10,7 +10,7 @@ public class BackSpace : MonoBehaviour
     string alpha =null;
     string alpha2 =null;
     public Text myName =null;
-    char [] nameChar = new char [30];
+    char [] nameChar = new char [15];
     // public Text index = null;
 
     public void  nameFunc (string alphabet)
