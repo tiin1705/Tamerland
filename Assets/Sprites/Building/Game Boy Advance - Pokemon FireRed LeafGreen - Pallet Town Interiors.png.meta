@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 339da3ef1b0d65c44ad998f7b1fce64e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 277
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab080b237fc7eac43a3ff87028a0d30c
+      internalID: -1424139784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054ebb6e900cb0c40ad56d0bd6d983de
+      internalID: 1695520460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 323
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cc380735aad3d41a16cd23bcaf5227
+      internalID: -203017501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 323
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa5942babe77a44aa3501fe33f3e83d
+      internalID: 1288994292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069e89a54e3efd14fa80609117122118
+      internalID: 915165486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 258
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f115e6c1d7d8b4088e7794597101ef
+      internalID: 1767357927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 298
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bd722c953ddcb44b370649ef0fcf66
+      internalID: -233853668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_7
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 390
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef92d1cd02b8c24f8dcafb3dbcf2ee2
+      internalID: 1938918399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_8
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 374
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3af4f82a89c6e4fa739fe51aae26f6
+      internalID: -1497697475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 278
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9730401b6c436d46a98d32631a135b3
+      internalID: 1435021300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_10
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 293
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43acc39f64b15004fb76090175e365c6
+      internalID: 34565078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 357
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2a763bb09f28a4dbf0916ff87d65e5
+      internalID: 1837632442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_12
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 278
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516cc2bfb2771e3428b58da9aea21cf0
+      internalID: -1085738790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_13
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 293
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a2e05e33aa6a84a82a311a243a3137
+      internalID: 1076391258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_14
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 325
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccecf1fa55db5d4f85701f5ab727273
+      internalID: 74733243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 325
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7942cd77676251a4bb5c18c01f648c55
+      internalID: -1632947093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_16
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 325
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd44c8a28c7c1a4cbfeb0428b79ccc8
+      internalID: -1123395268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 365
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630fea04cbb1dc44a9d3760489fda9fe
+      internalID: 258427672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 366
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5558ae3a8885602429ca3943a947e5ec
+      internalID: -1085830991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_20
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 383
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82e03b0f83a68442bbde199f8e2646d
+      internalID: -1446581735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_24
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 351
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356e2e9964d1f394db0a6c63802b4119
+      internalID: -262763000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 323
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4382bdd4c6997c44bcf5c7cd9d3f7a2
+      internalID: -1942174335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcedb07bd2f3d2f4489fb5051376ba92
+      internalID: 269161627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ccd0c2b87ddf34e8c4c265deaeb486
+      internalID: 86045232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 281
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c0df0f8bd55974a8633f50118119ca
+      internalID: -580824283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_21
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 325
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e794ba4e4bdde6e489a43560e49f146a
+      internalID: -118347941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_22
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 310
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121232a6d5c3b5547811b12e6423f31c
+      internalID: -1949948131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_23
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 310
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e6389a130b8f643b2c28183976d0b2
+      internalID: -1489027155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_26
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 295
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba34d619196ff498ae7c46928555e3
+      internalID: 2105018594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_32
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 366
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe9b81eb076ed41bb8c757f9be8de9
+      internalID: -481848798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_17
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 366
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6fb170dbcc2e342a238cc433a992c2
+      internalID: 666027828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 343
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2c7b50656b2d845bebe1076df4c3a7
+      internalID: -1801769364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_0: -1424139784
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_1: 1695520460
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_10: 34565078
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_11: 1837632442
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_12: -1085738790
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_13: 1076391258
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_14: 74733243
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_15: -1632947093
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_16: -1123395268
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_17: 666027828
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_18: 258427672
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_19: -1085830991
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_2: -203017501
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_20: -1446581735
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_21: -118347941
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_22: -1949948131
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_23: -1489027155
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_24: -262763000
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_25: -1942174335
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_26: 2105018594
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_27: -1801769364
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_28: 269161627
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_29: 86045232
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_3: 1288994292
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_30: -1069080215
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_31: 12960772
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_32: -481848798
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_33: 782683480
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_34: 206351498
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_4: 915165486
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_5: 1767357927
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_6: -233853668
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_7: 1938918399
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_8: -1497697475
+      Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_9: 1435021300
+      a: 260777306
+      b: -778451663
+      c: -580824283
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
