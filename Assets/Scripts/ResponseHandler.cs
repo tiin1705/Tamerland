@@ -12,6 +12,8 @@ public class ResponseHandler : MonoBehaviour
 
     private DialogueUI dialogueUI;
 
+    public GameObject perSon;
+
    private List<GameObject> tempResponsesButtons = new List<GameObject>();
 
     private void Start()
@@ -37,11 +39,13 @@ public class ResponseHandler : MonoBehaviour
 
         responseBox.sizeDelta = new  Vector2 ( responseBox.sizeDelta.x, responseBoxHeight);
         responseBox.gameObject.SetActive(true);
+        
     }
 
     private void  OnPickedResponse(Response response)
     {
         responseBox.gameObject.SetActive(false);
+        perSon.SetActive(false); 
 
         foreach(GameObject button in tempResponsesButtons)
         {
