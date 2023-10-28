@@ -1,0 +1,3000 @@
+fileFormatVersion: 2
+guid: 36ff71dcc48c9f04b9bb51584dce68dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 335
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b588dd279a104c34f84e52ad6f66e665
+      internalID: -39845237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 333
+        width: 242
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d923f5f0b525248957b50008393ac5
+      internalID: 1894404505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 243
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc8302eadf78cf428044a8486ba39cf
+      internalID: 1510334989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 297
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d26581ae755ffb4c85c529994f64046
+      internalID: -396877346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 249
+        width: 34
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f588c4d5648b124e943feae92ca9bbd
+      internalID: -1956040354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 249
+        width: 40
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f381b79f027e54ea29b0ad3f4c2c4a
+      internalID: -1158323993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 250
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5308d351eb92635449267985044485d7
+      internalID: 457681067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 298
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9bae70b4295394e8cc97af5b34c970
+      internalID: 367951175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 298
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb90a0e3a1a5864381c4c78d5324afb
+      internalID: -1633645532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 323
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3539297682c0f9347a53252dfcc9af99
+      internalID: 637946987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 322
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff46ee039ee60a4d8a3681faa3d5050
+      internalID: -1288312162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 322
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31d9b97630db3346b3e440d4bf8e3af
+      internalID: 225788910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 322
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913c3eeaf3393074aaf773ea31d16d3e
+      internalID: 2045394475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 322
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abc462866d58f94c84bc93a6324d4fc
+      internalID: 887363734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 280
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d968f75be100c41ac9121f671c2292
+      internalID: 733650314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 267
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89decfa038d79324f96798337bcea138
+      internalID: -607083049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 267
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bcee593756f264981346a03c9b1fd0
+      internalID: 1292112958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 267
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825af80510ce0c846b865deb901d71b7
+      internalID: 118248174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 243
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3577fffc365fd446872dcf66c400405
+      internalID: 1823875709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 243
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b89ebec2c2fc0b4b89f7c2ce7341b8c
+      internalID: 547645720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 243
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f778614ba3ddd2b4dbdc6f1bd8b72ded
+      internalID: -966769691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 243
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c355afb9a2bc4b74a8f82e8ac5d5ffd9
+      internalID: -224198072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 161
+        width: 209
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81402ff50542f2b4a8540479d7cd2fd7
+      internalID: 10552231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 78
+        width: 207
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6c8b5069353574f9eda3aba938b955
+      internalID: -1048172907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 27
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85082bfa9df3ff34281729832d370120
+      internalID: -1788343759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 64
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbe858f6685c4e4788765f1f121d34c
+      internalID: 854602915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 64
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76965864e80717b4fbfa7329aa5f5597
+      internalID: 1219855516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 64
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7322fdd1df174a40a18fceb087a4f78
+      internalID: -1508668610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0721f91ac48d54f969e0282dc840f5
+      internalID: 1725850383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 64
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333c64898e40fee418c75c6628a04dd5
+      internalID: 1888208584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb04498c06511c41bf573a2ddbd0957
+      internalID: 429948279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 65
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865ff92717ec68743b5753d62917c696
+      internalID: 1656879436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89460bb33d61e52409b0a12c875d4518
+      internalID: -977120117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 64
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983aad678b8afc34bb9f06a4d64b0b4f
+      internalID: -2146665401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f78ba2a0c71ea4f9cf0e3c8170474a
+      internalID: -574202386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 64
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6464e9494e7ce3343b1cf8c3d73a4e12
+      internalID: 2101916512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 64
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bfe639e62920b498363d824b201a2f
+      internalID: -318932979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 65
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e714f619c9b947e49a67592d17022d28
+      internalID: -832397906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 64
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eda5e178192a64880b340100f803ca
+      internalID: 305598973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 64
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c52852c8829114daeda7f1089ea4e2
+      internalID: -1570421599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 64
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecba90e1a458d4048a43dc3d333a3136
+      internalID: -963431065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 64
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842bf719252e0ff44972c63ad1a8350a
+      internalID: 2027041267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 65
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc577753ffcbf647a59d0d5e917081c
+      internalID: 1068989157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 65
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153121fe57a52d848ab15f708fcd371b
+      internalID: 893345304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 48
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab562bc0562864e9fd27c4f9d379ef
+      internalID: 1729964304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 48
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aacadd2509b9cd4290c4c97302212b9
+      internalID: 1036668903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 48
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ebf2b34270157448d7f1f238e55bb9
+      internalID: -1665007180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 48
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7559ae7d1727ff4aa19288f0d052ab9
+      internalID: 1406836246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e514cb135046388459e66c7aee518e56
+      internalID: 1130985636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 48
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab8ac860d96b7a41982b7d100b31091
+      internalID: 152987733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 46
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aa375e3d03b044daa7643856a39e5b
+      internalID: 2009878378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 49
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ab245cac8a04a4ba312de69e2c7b8e
+      internalID: 456173678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 46
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f8f25467ccbcf4d9f54e2494c9f253
+      internalID: 436871940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 49
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33143a28ab6417842ac818f6dbb64827
+      internalID: 1997880786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 49
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ad95e8f08abf4aa369b90defe7de3
+      internalID: 927083300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 33
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142f61d0960b4a42ac1342361b59489
+      internalID: 875482894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 48
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb0354afb117a64f90871caf2a468c4
+      internalID: 283677108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 48
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca393142e73c7348b7f0e454dc70b18
+      internalID: -1134705423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 48
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f9b15ed8e66748856f41de69dc0e2
+      internalID: -1739633917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 48
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faffcbf433453ef45af4b35ff96c3d0f
+      internalID: 1170370350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 47
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4f29cc021d0c448bb6d01d187703cd
+      internalID: 702906495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 32
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b919f9c7b8f05e44ac4384e49799caa
+      internalID: 1815700815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 32
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f24848ba613b6147808edb27644bb81
+      internalID: -510341734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 32
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc02881f4f15445b748a589bd3f050
+      internalID: -1594801503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 32
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56b4aaf82f6c484099f5b9749c2b08d
+      internalID: -1918515730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 33
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c912c96d4aaba794093eb7452a533762
+      internalID: -1949056134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 33
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee3e1dc4363136418346a31dda789f9
+      internalID: -1229520972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 32
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f57dff7305045642a7723f60ff53a78
+      internalID: 808896452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dc432c0eab5e94792d721cc4975702
+      internalID: 1623009581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 33
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92632ffb631388489c990b0b7da7582
+      internalID: 738882171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c419de4d377a8b343b812668f84614d9
+      internalID: 845553183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 31
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6604b256d5373fe4b974a4b447b1a490
+      internalID: 871486248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 31
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54060a4d58e0c544f827bfa51d9fba26
+      internalID: 420247470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 33
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3135c0ed45b29b642be76d8e29beda43
+      internalID: -647164573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 33
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4649590e6685574caa782983dd9209f
+      internalID: 2139148035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 32
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7118faa257c5c45a5056d13e9d7eec
+      internalID: -1334722739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 32
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2daba4c7ae6843be56c41403f67c7
+      internalID: 1244788607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 32
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265e2f21ce825d1429481727a67527e1
+      internalID: 910033014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 32
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f5e179318eb8649b0ba7d54cae95ea
+      internalID: 1938909219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 31
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac07aea30cbe8f459b8fbdbe7353ba4
+      internalID: -761366126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 31
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d34cd61817b0b84c9e3156914f0ef54
+      internalID: -460301683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 30
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ef0b6e155323947bba8f2ecde9ffa4
+      internalID: -333957829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 31
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4bea69a28d6154ea811320960f0170
+      internalID: 662410713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0ed982bc28bbf499a231153a59834c
+      internalID: 649348276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 31
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83cf7939fe937140b44dd2baf110edc
+      internalID: -1496049958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 31
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de05fb28069b64096ae6eaf3610d8c
+      internalID: 141742321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa2571a78f5e8c4ca3c2c8e2468413a
+      internalID: -2056360847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cf46a6e15d45c4ca9f40d49b28feb9
+      internalID: 239630290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78468e50139e7aa468a3314ebdefd7c4
+      internalID: -1698730673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7665b0267095314e9522b7f6e354e90
+      internalID: -1528540993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e820b1232477d14d921d2487ee18f20
+      internalID: 2119787181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3582458769a02b242b1fd3fb4bbb5efa
+      internalID: 2104998183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 16
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7110d30ace6a2a54798183c9a3409e22
+      internalID: 1076451622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 16
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245559925889ed946add096bae5f7473
+      internalID: 652072859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 24
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc475103fe100ad448039a9f3f5d1991
+      internalID: -1750151641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 24
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b324e401368a5c48a6dd53e59129817
+      internalID: -1831009798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9f5338642ab8c4b9a463f48510e41e
+      internalID: -132513739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17931082ec39e242ade07134a72edc2
+      internalID: 767333757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562d1a71b7749d34a92c92c754f634c5
+      internalID: 1461036205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 19
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08cd0fed6a59e641a67db8f24eefe7f
+      internalID: -857433042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 19
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e5dfd52a3a76642ba4b7f3d065056f
+      internalID: 93679790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a82bed940c1aa4d8c7cd517126b70f
+      internalID: -64618429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 19
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ea9f0c7e2d1b14aa993de7935989f3
+      internalID: 1909825451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b037498b2d08949bd1dff2f32cfee0
+      internalID: -1841576530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 19
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6af6e2978327440bdd80945a300ee3
+      internalID: 484121033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4819af704b3fb144b6e0d37d4c4389c
+      internalID: -1090976646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 19
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a731001b2e1a14b9943e800b100146
+      internalID: -635159236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 18
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf14b5763033f524e8423a8a38697158
+      internalID: -671085270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 17
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bfba17a43971e42b91993ca5fdc8bd
+      internalID: -857570352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e197d218d7e1f8b4595532f7dcaad0c2
+      internalID: -160945041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad445c2ec2aad5744ab1193d312368da
+      internalID: -1684056439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d692c3935139d9c4dbe43e4d70edfbf9
+      internalID: 52619290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 15
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5609f12fdf156894bbb5f0a97c44d8a2
+      internalID: 1113172844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 17
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b4013cdcec8f642b22812d0272f545
+      internalID: 854636889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43ad99f7faa7c3418ff41e86021f258
+      internalID: -526164746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 7
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7954897359dbe943b2ec3e70181f605
+      internalID: -1606141587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd40659744122064599354e28dfd12b7
+      internalID: 595261793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 7
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56317ee7b443fb648b6486098f2857e2
+      internalID: 1683083370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 7
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a76202da9ff347bce6968888e1572
+      internalID: 1739724664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9015b337a2e76a4188f412298fae8b9
+      internalID: -48848366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 7
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994a4bf8d7610214ead85fc60d05455c
+      internalID: -1769455058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb5c962110975c40b2bbe78b22f23b0
+      internalID: 1869936063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 7
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a37a35259826b4a81fce98420b1c42
+      internalID: 1612804921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 7
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034abec0fa81cc046bae5b2ada6dff98
+      internalID: 1827820300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380066df98bfea44da59f447f9a62a8b
+      internalID: -608244704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 7
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f9ede0d289f124796efe9fc715b302
+      internalID: -647255233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b70dad08ac18645bd407deb9f0cc77
+      internalID: 1951884787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 120
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d95eca6d9d87f45ae8443b8efa2bf2
+      internalID: -1891402986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 98
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1c94e7973088b41b2191719a7693d1
+      internalID: 1251616091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 149
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe192520308d1d947b059182936111c6
+      internalID: -2271470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_0: -39845237
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_1: 1894404505
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_10: -1288312162
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_100: 93679790
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_101: -64618429
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_102: 1909825451
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_103: -1841576530
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_104: 484121033
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_105: -1090976646
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_106: -635159236
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_107: -671085270
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_108: -857570352
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_109: -160945041
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_11: 225788910
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_110: -1684056439
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_111: 52619290
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_112: 1113172844
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_113: 854636889
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_114: -526164746
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_115: -1606141587
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_116: 595261793
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_117: 1683083370
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_118: 1739724664
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_119: -48848366
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_12: 2045394475
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_120: -1769455058
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_121: 1869936063
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_122: 1612804921
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_123: 1827820300
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_124: -608244704
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_125: -647255233
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_126: 1951884787
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_127: -1891402986
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_128: 1251616091
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_129: -2271470
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_13: 887363734
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_14: 733650314
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_15: -607083049
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_16: 1292112958
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_17: 118248174
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_18: 1823875709
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_19: 547645720
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_2: 1510334989
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_20: -966769691
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_21: -224198072
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_22: 10552231
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_23: -1048172907
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_24: -1788343759
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_25: 854602915
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_26: 1219855516
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_27: -1508668610
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_28: 1725850383
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_29: 1888208584
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_3: -396877346
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_30: 429948279
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_31: 1656879436
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_32: -977120117
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_33: -2146665401
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_34: -574202386
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_35: 2101916512
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_36: -318932979
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_37: -832397906
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_38: 305598973
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_39: -1570421599
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_4: -1956040354
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_40: -963431065
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_41: 2027041267
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_42: 1068989157
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_43: 893345304
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_44: 1729964304
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_45: 1036668903
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_46: -1665007180
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_47: 1406836246
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_48: 1130985636
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_49: 152987733
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_5: -1158323993
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_50: 2009878378
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_51: 456173678
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_52: 436871940
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_53: 1997880786
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_54: 927083300
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_55: 875482894
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_56: 283677108
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_57: -1134705423
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_58: -1739633917
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_59: 1170370350
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_6: 457681067
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_60: 702906495
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_61: 1815700815
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_62: -510341734
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_63: -1594801503
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_64: -1918515730
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_65: -1949056134
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_66: -1229520972
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_67: 808896452
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_68: 1623009581
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_69: 738882171
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_7: 367951175
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_70: 845553183
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_71: 871486248
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_72: 420247470
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_73: -647164573
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_74: 2139148035
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_75: -1334722739
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_76: 1244788607
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_77: 910033014
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_78: 1938909219
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_79: -761366126
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_8: -1633645532
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_80: -460301683
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_81: -333957829
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_82: 662410713
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_83: 649348276
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_84: -1496049958
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_85: 141742321
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_86: -2056360847
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_87: 239630290
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_88: -1698730673
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_89: -1528540993
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_9: 637946987
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_90: 2119787181
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_91: 2104998183
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_92: 1076451622
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_93: 652072859
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_94: -1750151641
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_95: -1831009798
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_96: -132513739
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_97: 767333757
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_98: 1461036205
+      Game_Boy_Advance_-_Pokemon_FireRed_LeafGreen_-_Intro_Screens-removebg-preview_99: -857433042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
