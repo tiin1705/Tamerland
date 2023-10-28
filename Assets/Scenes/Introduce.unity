@@ -1217,6 +1217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605376730}
   - component: {fileID: 1605376731}
+  - component: {fileID: 1605376733}
   - component: {fileID: 1605376729}
   - component: {fileID: 1605376732}
   - component: {fileID: 1605376728}
@@ -1357,6 +1358,52 @@ MonoBehaviour:
   responseButtonTemplate: {fileID: 607463470}
   responseContainer: {fileID: 1555247330}
   perSon: {fileID: 52631386}
+--- !u!114 &1605376733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605376725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f73f0b5a0a633f54ea4dd9d9d22d67fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueObject: {fileID: 11400000, guid: 8ebebe909bcd01647aa7e2a3ddffb818, type: 2}
+  events:
+  - name: Boy
+    onPickedResponse:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: Girl
+    onPickedResponse:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1714445922
 GameObject:
   m_ObjectHideFlags: 0

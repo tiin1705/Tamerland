@@ -30,6 +30,11 @@ public class DialogueUI : MonoBehaviour
         StartCoroutine(StepThoughDialogue(dialogueObject));
     }
 
+    public void AddResponseEvents(ResponseEvent[] responseEvents)
+    {
+       responseHandler.AddResponseEvents(responseEvents);
+    }
+
    private IEnumerator StepThoughDialogue(DialogueObject dialogueObject)
    {    
         yield return new WaitForSeconds(2);

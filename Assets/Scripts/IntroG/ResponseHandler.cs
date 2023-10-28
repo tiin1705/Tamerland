@@ -11,8 +11,9 @@ public class ResponseHandler : MonoBehaviour
    [SerializeField] private RectTransform responseContainer;
 
     private DialogueUI dialogueUI;
-
+    private ResponseEvent[] responseEvents;
     public GameObject perSon;
+   
 
    private List<GameObject> tempResponsesButtons = new List<GameObject>();
 
@@ -21,16 +22,24 @@ public class ResponseHandler : MonoBehaviour
         dialogueUI = GetComponent<DialogueUI>(); 
     }
 
+    public void AddResponseEvents(ResponseEvent[] responseEvents)
+    {
+        this.responseEvents = responseEvents;
+       
+    }
+
     public void ShowResponses(Response[] responses)
     {
         float responseBoxHeight = 0;
 
-        foreach (Response response in responses)
-        {
+        for (int i = 0; i < responses.Length; i++)
+        {   
+            Response response = responses[i];
+            int responseIndex = i;
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
-            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
+            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response,responseIndex));
 
             tempResponsesButtons.Add(responseButton);
 
@@ -42,16 +51,27 @@ public class ResponseHandler : MonoBehaviour
         
     }
 
-    private void  OnPickedResponse(Response response)
+    private void  OnPickedResponse(Response response, int responseIndex)
     {
         responseBox.gameObject.SetActive(false);
         perSon.SetActive(false); 
+       
+
+        
 
         foreach(GameObject button in tempResponsesButtons)
         {
             Destroy(button);
         }
         tempResponsesButtons.Clear();
+
+        if(responseEvents != null && responseIndex <= responseEvents.Length)
+        {
+            responseEvents[responseIndex].OnPickedResponse?.Invoke();
+            
+            
+        }
+
         dialogueUI.ShowDialogue(response.DialogueObject);
     }
 }
