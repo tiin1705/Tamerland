@@ -9,4 +9,12 @@ public class SceneBag : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+    public void Close()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void Profile()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
