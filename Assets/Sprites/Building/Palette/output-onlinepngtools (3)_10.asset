@@ -10,9 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: output-onlinepngtools (3)_10
+<<<<<<<< HEAD:Assets/Sprites/Building/Palette/output-onlinepngtools (3) 1_0.asset
+  m_Name: output-onlinepngtools (3) 1_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1048949992, guid: dea6197c7bf55f74a90f524cb528db44, type: 3}
+  m_Sprite: {fileID: -1979682259, guid: 6f700940212d86847974849da1e4043d, type: 3}
+========
+  m_Name: Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_29
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 86045232, guid: 339da3ef1b0d65c44ad998f7b1fce64e, type: 3}
+>>>>>>>> ba6862a5366293730d007db098a56e30da566a83:Assets/Sprites/Building/InsideBuiding/Game Boy Advance - Pokemon FireRed LeafGreen - Pallet Town Interiors_29.asset
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
