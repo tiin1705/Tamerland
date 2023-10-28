@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: DialogueText
   m_EditorClassIdentifier: 
   dialogue:
-  - "Hello, there!\n Glad to meet you "
+  - 'Hello, there!
+
+    Glad to meet you '
   - "Wellcome to the world of POK\xE9MON!"
   - My name is OAK.
   - "People  affectionately refer to me as the POK\xE9MON PROFESSOR "
