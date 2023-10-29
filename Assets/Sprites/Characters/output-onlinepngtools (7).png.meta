@@ -126,7 +126,7 @@ TextureImporter:
       name: output-onlinepngtools (7)_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 7
         y: 457
         width: 14
         height: 18
@@ -147,9 +147,9 @@ TextureImporter:
       name: output-onlinepngtools (7)_1
       rect:
         serializedVersion: 2
-        x: 26
+        x: 24
         y: 458
-        width: 12
+        width: 16
         height: 18
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
@@ -168,7 +168,7 @@ TextureImporter:
       name: output-onlinepngtools (7)_2
       rect:
         serializedVersion: 2
-        x: 42
+        x: 41
         y: 457
         width: 14
         height: 18
@@ -189,7 +189,7 @@ TextureImporter:
       name: output-onlinepngtools (7)_3
       rect:
         serializedVersion: 2
-        x: 8
+        x: 9
         y: 425
         width: 14
         height: 18
@@ -210,9 +210,9 @@ TextureImporter:
       name: output-onlinepngtools (7)_4
       rect:
         serializedVersion: 2
-        x: 26
+        x: 25
         y: 426
-        width: 12
+        width: 14
         height: 18
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
@@ -231,7 +231,7 @@ TextureImporter:
       name: output-onlinepngtools (7)_5
       rect:
         serializedVersion: 2
-        x: 42
+        x: 41
         y: 425
         width: 14
         height: 18
@@ -255,7 +255,7 @@ TextureImporter:
         x: 8
         y: 392
         width: 14
-        height: 19
+        height: 18
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,9 +274,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 391
+        y: 392
         width: 14
-        height: 21
+        height: 18
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: output-onlinepngtools (7)_8
       rect:
         serializedVersion: 2
-        x: 39
-        y: 391
+        x: 40
+        y: 392
         width: 14
-        height: 21
+        height: 18
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
       border: {x: 0, y: 0, z: 0, w: 0}

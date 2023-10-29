@@ -32,6 +32,7 @@ public class PlayerScript : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
+
             if (input.x != 0) input.y = 0;  
 
             if (input != Vector2.zero)
@@ -40,8 +41,8 @@ public class PlayerScript : MonoBehaviour
                 animator.SetFloat("moveY", input.y);
 
                 var playerPos = transform.position;
-                playerPos.x += input.x;
-                playerPos.y += input.y;
+                playerPos.x += input.x*0.5f;
+                playerPos.y += input.y*0.5f;
 
                 if (isWalkable(playerPos))
                     StartCoroutine(Move(playerPos));
@@ -55,7 +56,8 @@ public class PlayerScript : MonoBehaviour
         isMoving = true;
         while((playerPos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
-            transform.position = Vector3.MoveTowards(transform.position, playerPos, moveSpeed * Time.deltaTime);
+            Vector3 newPosition = Vector3.MoveTowards(transform.position, playerPos, 0.5f);
+            transform.position = Vector3.MoveTowards(transform.position,newPosition, moveSpeed * Time.deltaTime);
             yield return null;
            
         }
@@ -121,8 +123,9 @@ public class PlayerScript : MonoBehaviour
     private bool foregroundCheck(Vector3 playerPos)
     {
         //foreground layer check
-        if (Physics2D.OverlapCircle(playerPos, 0f, foregroundLayer) != null)
+        if (Physics2D.OverlapCircle(playerPos, 0.01f, foregroundLayer) != null)
         {
+            Debug.Log("Va cham foreground");
             return false;
         }
         return true;
@@ -142,7 +145,7 @@ public class PlayerScript : MonoBehaviour
 
     private bool isWalkable(Vector3 playerPos)
     {
-        if (buidingCheck(playerPos) & foregroundCheck(playerPos)  & seaCheck(playerPos))
+        if (foregroundCheck(playerPos) )
         {
             return true;
         }
