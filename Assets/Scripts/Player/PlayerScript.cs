@@ -112,8 +112,9 @@ public class PlayerScript : MonoBehaviour
     private bool buidingCheck(Vector3 playerPos)
     {
         //building layer check
-        if(Physics2D.OverlapCircle(playerPos,0f,buildingLayer) != null)
+        if(Physics2D.OverlapCircle(playerPos,0.01f,buildingLayer) != null)
         {
+            Debug.Log("Va cham building");
             return false;
         }
         return true;
@@ -135,8 +136,9 @@ public class PlayerScript : MonoBehaviour
 
     private bool seaCheck(Vector3 playerPos)
     {
-        if (Physics2D.OverlapCircle(playerPos, 0f, seaLayer) != null)
+        if (Physics2D.OverlapCircle(playerPos, 0.01f, seaLayer) != null)
         {
+            Debug.Log("Va cham sea");
             return false;
         }
         return true;
@@ -145,7 +147,7 @@ public class PlayerScript : MonoBehaviour
 
     private bool isWalkable(Vector3 playerPos)
     {
-        if (foregroundCheck(playerPos) )
+        if (foregroundCheck(playerPos) && buidingCheck(playerPos) && seaCheck(playerPos))
         {
             return true;
         }
