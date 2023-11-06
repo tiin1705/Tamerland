@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MinhTAn.unity
+    path: Assets/Scenes/MinhTan'Scenes/MinhTAn.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Profile.unity
+    path: Assets/Scenes/MinhTan'Scenes/Profile.unity
     guid: a12ddc5163c995149ac0d86ec9cbb8ea
   - enabled: 1
-    path: Assets/Scenes/Bag.unity
+    path: Assets/Scenes/MinhTan'Scenes/Bag.unity
     guid: fae5cb80690df7945ab61099517a76e1
   m_configObjects: {}
