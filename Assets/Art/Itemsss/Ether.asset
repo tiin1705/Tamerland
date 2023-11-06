@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28de3b122fa6b24fb13526d30524c20, type: 3}
+  m_Name: Ether
+  m_EditorClassIdentifier: 
+  name: Ether
+  description: "Restores a selected move's PP by 10 points for one Pok\xE9mon."
+  icon: {fileID: 202507780, guid: b7e8cac6fcf965b4da5fe8e11dd9c96f, type: 3}
+  hpAmount: 0
+  restoreMaxHP: 0
+  ppMount: 10
+  restoreMaxPP: 0
+  recoveryAllStatus: 0
+  revive: 0
+  maxRevive: 0
