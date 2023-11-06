@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Art.meta
 guid: afce3d5b0e075419bafc9e13b6bfb584
+=======
+guid: dbd379acb06f162429e3b98f6f1d11f2
+>>>>>>> hmt:Assets/Sprites/Menu/MinhTan'Sprite.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
