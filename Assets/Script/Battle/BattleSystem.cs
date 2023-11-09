@@ -66,8 +66,11 @@ public class BattleSystem : MonoBehaviour
         yield return dialogBox.TypeDialog($"{playerUnit.Pokemon.Base.Name} used {move.Base.Name}");
 
         //yield return new WaitForSeconds(1f);
-
-
+        //hitanimation
+        enemyUnit.PlayHitAnimation();
+        // chay animation
+        playerUnit.PlayAttackAnimation();
+        yield return new WaitForSeconds(1f);
 
         var damageDetails = enemyUnit.Pokemon.TakeDamage(move, playerUnit.Pokemon);
         yield return enemyHud.UpdateHP();
@@ -76,6 +79,7 @@ public class BattleSystem : MonoBehaviour
         if (damageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{enemyUnit.Pokemon.Base.Name} Fainted");
+            enemyUnit.PlayFaintAnimation();
         }
         else
         {
@@ -92,6 +96,11 @@ public class BattleSystem : MonoBehaviour
         yield return dialogBox.TypeDialog($"{enemyUnit.Pokemon.Base.Name} used {move.Base.Name}");
 
         //yield return new WaitForSeconds(1f);
+        //chay hitanimation
+        playerUnit.PlayHitAnimation();
+        // chay animation
+        enemyUnit.PlayAttackAnimation();
+        yield return new WaitForSeconds(1f);
 
         var damageDetails = playerUnit.Pokemon.TakeDamage(move, playerUnit.Pokemon);
 
@@ -101,6 +110,7 @@ public class BattleSystem : MonoBehaviour
         if (damageDetails.Fainted)
         {
             yield return dialogBox.TypeDialog($"{playerUnit.Pokemon.Base.Name} Fainted");
+            playerUnit.PlayFaintAnimation();
         }
         else
         {
