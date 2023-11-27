@@ -71,12 +71,7 @@ public class PlayerScript : MonoBehaviour
     }
     private void Awake()
     {
-
-       
-
-
         animator = GetComponent<Animator>();
-        // Đảm bảo rằng chỉ có một phiên bản duy nhất của PlayerController.
         if (instance == null)
         {
             instance = this;
@@ -87,26 +82,14 @@ public class PlayerScript : MonoBehaviour
             // Nếu đã tồn tại một phiên bản khác, hủy bỏ phiên bản hiện tại.
             Destroy(gameObject);
         }
-    
+
 
 
     }
   
     
 
-    public Vector3 GetNewPosition()
-    // Hàm để lấy vị trí mới của nhân vật.
-
-    {
-        return newPosition;
-    }
-
-    public void SetNewPosition(Vector3 position)
-    {
-        // Hàm để đặt vị trí mới của nhân vật.
-
-        newPosition = position;
-    }
+   
 
 
     private bool buidingCheck(Vector3 playerPos)
