@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -13,6 +14,8 @@ public class PlayerScript : MonoBehaviour
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
     public LayerMask seaLayer;
+    public LayerMask grassLayer;
+    public event Action OnEcountered;
 
     private Vector3 newPosition; // Biến để lưu trữ vị trí mới của nhân vật.
     private Vector3 currentPos;
@@ -25,7 +28,7 @@ public class PlayerScript : MonoBehaviour
 
         get { return instance; }
     }
-    void Update()
+    public void HandleUpdate()
     {
         if (!isMoving)
         {
@@ -59,6 +62,7 @@ public class PlayerScript : MonoBehaviour
             yield return null;
            
         }
+        CheckForEncounters();
         transform.position = playerPos;
         isMoving = false;
     }
@@ -148,6 +152,17 @@ public class PlayerScript : MonoBehaviour
         }
         return false ;
     }
-   
+    private void CheckForEncounters()
+    {
+        if (Physics2D.OverlapCircle(transform.position, 0.2f, grassLayer) != null)
+        {
+            if (UnityEngine.Random.Range(1, 101) <= 10)
+            {
+                OnEcountered();
+                
+            }
+        }
+    }
+
 
 }
