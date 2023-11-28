@@ -13,6 +13,7 @@ public class PlayerScript : MonoBehaviour
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
     public LayerMask seaLayer;
+    public GameObject Menu;
 
     private Vector3 newPosition; // Biến để lưu trữ vị trí mới của nhân vật.
     private Vector3 currentPos;
@@ -50,6 +51,11 @@ public class PlayerScript : MonoBehaviour
             }
         }
         animator.SetBool("isMoving", isMoving);
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+           Menu.SetActive(true);
+            Time.timeScale = 0;
+        }
     }
     IEnumerator Move(Vector3 playerPos)
     {
