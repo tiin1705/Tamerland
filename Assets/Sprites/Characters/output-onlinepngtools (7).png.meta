@@ -311,6 +311,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: output-onlinepngtools (7)_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 242
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4137acb8082404f2b9eff98734e3ce9d
+      internalID: 1414676640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinepngtools (7)_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 246
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489355f894c6e43359cd5fd9394c3d99
+      internalID: 1877864911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -324,6 +366,7 @@ TextureImporter:
     nameFileIdTable:
       output-onlinepngtools (7)_0: -1969907776
       output-onlinepngtools (7)_1: -1221294281
+      output-onlinepngtools (7)_10: 1877864911
       output-onlinepngtools (7)_2: -663314146
       output-onlinepngtools (7)_3: -198029630
       output-onlinepngtools (7)_4: 385896434
@@ -331,6 +374,7 @@ TextureImporter:
       output-onlinepngtools (7)_6: -1226438041
       output-onlinepngtools (7)_7: -848174512
       output-onlinepngtools (7)_8: 1114811815
+      output-onlinepngtools (7)_9: 1414676640
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

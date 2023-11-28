@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eaa1e528e3a4fbc85d9bb2ad666f8d, type: 3}
+  m_Name: MP Potion
+  m_EditorClassIdentifier: 
+  <IsStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 10
+  <Name>k__BackingField: MP Potion
+  <Description>k__BackingField: Slightly restored MP
+  <ItemImage>k__BackingField: {fileID: 1021706824, guid: 8dbbdaaaf07474226b2633ce812f8661, type: 3}

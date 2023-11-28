@@ -13,10 +13,9 @@ public class PlayerScript : MonoBehaviour
     public LayerMask buildingLayer;
     public LayerMask foregroundLayer;
     public LayerMask seaLayer;
-
+    public LayerMask NPCLayer;
     private Vector3 newPosition; // Biến để lưu trữ vị trí mới của nhân vật.
     private Vector3 currentPos;
-
 
     private static PlayerScript instance;
     public static PlayerScript Instance
@@ -49,7 +48,9 @@ public class PlayerScript : MonoBehaviour
             }
         }
         animator.SetBool("isMoving", isMoving);
+
     }
+    
     IEnumerator Move(Vector3 playerPos)
     {
         isMoving = true;
@@ -79,13 +80,16 @@ public class PlayerScript : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
         }
         else
         {
             // Nếu đã tồn tại một phiên bản khác, hủy bỏ phiên bản hiện tại.
             Destroy(gameObject);
         }
-    
+
+
+
 
 
     }
@@ -138,11 +142,18 @@ public class PlayerScript : MonoBehaviour
         }
         return true;
     }
-
+    private bool NPCCheck(Vector3 playerPos)
+    {
+        if (Physics2D.OverlapCircle(playerPos, 0f, NPCLayer) != null)
+        {
+            return false;
+        }
+        return true;
+    }
 
     private bool isWalkable(Vector3 playerPos)
     {
-        if (buidingCheck(playerPos) & foregroundCheck(playerPos)  & seaCheck(playerPos))
+        if (buidingCheck(playerPos) & foregroundCheck(playerPos)  & seaCheck(playerPos) & NPCCheck(playerPos))
         {
             return true;
         }
