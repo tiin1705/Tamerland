@@ -274,9 +274,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 391
+        y: 392
         width: 14
-        height: 21
+        height: 20
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: output-onlinepngtools (7)_8
       rect:
         serializedVersion: 2
-        x: 39
-        y: 391
+        x: 40
+        y: 392
         width: 14
-        height: 21
+        height: 19
       alignment: 9
       pivot: {x: 0.5, y: 0.1141798}
       border: {x: 0, y: 0, z: 0, w: 0}
