@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
     public LayerMask grassLayer;
+
+    private Scene scene;
 
     private bool isMoving;
 
@@ -19,7 +23,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void HandleUpdate()
     {
         if (!isMoving)
         {
@@ -63,9 +67,10 @@ public class PlayerController : MonoBehaviour
     {
         if(Physics2D.OverlapCircle(transform.position, 0.2f, grassLayer) != null)
         {
-            if(Random.Range(1, 101) <= 10)
+            if(UnityEngine.Random.Range(1, 101) <= 10)
             {
-                Debug.Log("Đã gặp pokemon!!!");
+                SceneManager.LoadScene("BattleScene");
+                Debug.Log("pokemon!1");
             }
         }
     }
