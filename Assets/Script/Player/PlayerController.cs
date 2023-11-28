@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask grassLayer;
 
     private bool isMoving;
-
+    
     private Vector2 input;
 
 
@@ -68,5 +68,13 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Đã gặp pokemon!!!");
             }
         }
+    }
+    public string Name
+    {
+        get => name;
+    }
+    public Sprite sprite
+    {
+        get => sprite;
     }
 }

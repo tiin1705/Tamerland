@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.WSA;
 
-public class PlayerScript : MonoBehaviour
+public class PlayerScript : MonoBehaviour, ISavable
 {
     public float moveSpeed = 0f;
     private bool isMoving;
@@ -48,8 +48,26 @@ public class PlayerScript : MonoBehaviour
                     StartCoroutine(Move(playerPos));
                   
             }
+            if(Input.GetKeyDown(KeyCode.S))
+            {
+                SavingSystem.i.Save("saveslot1");
+            }
+            if(Input.GetKeyDown(KeyCode.L))
+            {
+                SavingSystem.i.Load("saveslot1");
+            }
         }
         animator.SetBool("isMoving", isMoving);
+    }
+    public object CaptureState()
+    {
+        float[] position = new float[]{transform.position.x, transform.position.y};
+        return position;  
+    }
+    public void RestoreState(object state)
+    {
+        var position = (float[]) state;
+        transform.position = new Vector3(position[0], position[1]);
     }
     IEnumerator Move(Vector3 playerPos)
     {

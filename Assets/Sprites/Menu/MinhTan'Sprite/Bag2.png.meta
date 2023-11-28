@@ -307,7 +307,7 @@ TextureImporter:
         width: 77
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,6 +315,48 @@ TextureImporter:
       bones: []
       spriteID: 3bc8ab07460c6204ca993f480cfa7140
       internalID: -1808083585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bag2_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 52
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da27010dd8d7a04980252896533a98f
+      internalID: -243632502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bag2_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 52
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19c8565afff41240bc68ae0db80fe70
+      internalID: 269340320
       vertices: []
       indices: 
       edges: []
@@ -332,6 +374,8 @@ TextureImporter:
     nameFileIdTable:
       Bag2_0: -1295897274
       Bag2_1: -1745546269
+      Bag2_10: -243632502
+      Bag2_11: 269340320
       Bag2_2: 214382325
       Bag2_3: -729715574
       Bag2_4: 630321170
